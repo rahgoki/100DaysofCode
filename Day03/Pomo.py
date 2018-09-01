@@ -1,5 +1,6 @@
 #! python3
 
+
 # Basic pomodoro timer with choice on duration
 # uses 4 intervals for long breaks for simplicity
 
@@ -68,3 +69,6 @@ for _ in range(pomoCycles):
 
 print("\nlong break time!")
 time.sleep(longBreak)
+
+
+#some change to be merged...
