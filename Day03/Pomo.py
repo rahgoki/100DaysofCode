@@ -7,11 +7,11 @@ from datetime import datetime
 from datetime import timedelta
 import time
 
-#5 minute short break
+# 5 minute short break
 # needs to be int seconds for sleep
 shortBreak = 300
 
-#30 minute long break
+# 30 minute long break
 longBreak = 1800
 
 # number of pomodoro iterations before long break
