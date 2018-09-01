@@ -1,5 +1,6 @@
 #! python3
 
+
 # Basic pomodoro timer with choice on duration
 # uses 4 intervals for long breaks for simplicity
 
@@ -7,11 +8,9 @@ from datetime import datetime
 from datetime import timedelta
 import time
 
-#5 minute short break
 # needs to be int seconds for sleep
 shortBreak = 300
 
-#30 minute long break
 longBreak = 1800
 
 # number of pomodoro iterations before long break
