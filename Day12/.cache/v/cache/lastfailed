@@ -1,0 +1,5 @@
+{
+  "test_mydb.py": true,
+  "test_mydb.py::test_johns_id": true,
+  "test_mydb.py::test_toms_id": true
+}
