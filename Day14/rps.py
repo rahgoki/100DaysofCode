@@ -13,35 +13,71 @@ def print_header():
     print('        Rock Paper Scissors')
     print('------------------------------------\n\n')
 
-def setUserHandName(userInputChoice):
-    if userInputChoice == 'R':
-        return 'Rock'
-    elif userInputChoice == 'S':
-        return 'Scissors'
-    elif userInputChoice == 'P':
-        return 'Paper'
+# returns Hand with rock, paper, scissors as name property
+def setUserHandName(userHandChoice):
+    if userHandChoice == 'R':
+        return Hand('Rock')
+    elif userHandChoice == 'S':
+        return Hand('Scissors')
+    elif userHandChoice == 'P':
+        return Hand('Paper')
     else:
         return 0
 
+# if user wins...print this message
+def winMessage():
+    return 'You Win!!'
+
+# if user is defeated...print this message
+def loseMessage():
+    return 'You have been defeated!!'
+
+
+# game logic
 def game_loop():
+    # create list of objects for computer to chose from
     hands = [
         Hand('Rock'),
         Hand('Paper'),
         Hand('Scissors'),
     ]
 
-    userInputChoice = input('Please enter [R]ock, [P]aper, or [S]cissors  ').upper()
-    #print(userHandChoice)
+    while True:
+        # get user input as char and convert to full name
+        userHandChoice = setUserHandName(input('Please enter [R]ock, [P]aper, [S]cissors, 0 to exit  ').upper())
 
-    userHandChoice = setUserHandName(userInputChoice)
-    print(userHandChoice)
-    computerChoice = random.choice(hands)
+        # random choice to compare to
+        computerChoice = random.choice(hands)
+
+        # lazy error handling
+        if userHandChoice == 0:
+            print('***Exiting***')
+            break
 
 
 
-    #print(f'Your {userHandChoice} vs the computers {computerChoice.name}')
+        print(f'Your {userHandChoice.name} vs the computers {computerChoice.name}')
 
 
+        if userHandChoice.name == computerChoice.name:
+            print('It''s a tie!!!')
+        # user choses rock
+        elif userHandChoice.name == 'Rock' and computerChoice.name == 'Scissors':
+            print(winMessage())
+        elif userHandChoice.name == 'Rock' and computerChoice.name == 'Paper':
+            print(loseMessage())
+        # user choses paper
+        elif userHandChoice.name == 'Paper' and computerChoice.name == 'Rock':
+            print(winMessage())
+        elif userHandChoice.name == 'Paper' and computerChoice.name == 'Scissors':
+            print(loseMessage())
+        # user choses scissors
+        elif userHandChoice.name == 'Scissors' and computerChoice.name == 'Paper':
+            print(winMessage())
+        elif userHandChoice.name == 'Scissors' and computerChoice.name == 'Rock':
+            print(loseMessage())
+        else:
+            print('something went wrong')
 
 
 
