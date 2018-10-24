@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.arstechnica.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>Biz &amp; IT – Ars Technica</title>
+	
+	<link>https://arstechnica.com</link>
+	<description>Serving the Technologist for more than a decade. IT news, reviews, and analysis.</description>
+	<lastBuildDate>Wed, 24 Oct 2018 11:30:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.8.3</generator>
+
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-32x32.png</url>
+	<title>Biz &amp; IT – Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.arstechnica.com/arstechnica/technology-lab" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="arstechnica/technology-lab" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Two new supply-chain attacks come to light in less than a week</title>
+		<link>https://arstechnica.com/?p=1398831</link>
+		<pubDate>Tue, 23 Oct 2018 21:45:54 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[supply chain]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1398831</guid>
+		<description><![CDATA[As drive-by attacks get harder, hackers exploit the trust we have in software providers.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/broken-link-800x534.jpg" alt="Two new supply-chain attacks come to light in less than a week"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/broken-link.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/smithser/3870653508">Brian Smithson / Flickr</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Most of us don’t think twice about installing software or updates from a trusted developer. We scrutinize the source site carefully to make sure it’s legitimate, and then we let the code run on our computers without much more thought. As developers continue to make software and webpages harder to hack, blackhats over the past few years have increasingly exploited this trust to spread malicious wares. Over the past week, two such supply-chain attacks have come to light.</p>
+<p>The first involves <a href="https://vestacp.com/">VestaCP</a>, a control-panel interface that system administrators use to manage servers. This <a href="https://censys.io/certificates?q=parsed.issuer.organization%3A%22Vesta+Control+Panel%22">Internet scan performed by Censys</a> shows that there are more than 132,000 unexpired TLS certificates protecting VestaCP users at the moment. According to a <a href="https://www.welivesecurity.com/2018/10/18/new-linux-chachaddos-malware-distributed-servers-vestacp-installed/">post published last Thursday</a> by security firm Eset, unknown attackers compromised VestaCP servers and used their access to make a malicious change to an installer that was available for download.</p>
+<h2>Poisoning the source</h2>
+<p>“The VestaCP installation script was altered to report back generated admin credentials to vestacp.com after a successful installation,” Eset Malware Researcher Marc-Étienne M.Léveillé told Ars. “We don’t know exactly when this happened, but the modified installation script was visible in their source code management on GitHub between May 31 and June 13.” VestaCP developer <a href="https://github.com/serghey-rodin">Serghey Rodin</a> told Ars his organization is working with Eset to investigate the breach to better understand the attack.</p>
+</div><p><a href="https://arstechnica.com/?p=1398831#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1398831&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Charter’s nationwide price hike could cost you another $91 a year</title>
+		<link>https://arstechnica.com/?p=1398669</link>
+		<pubDate>Tue, 23 Oct 2018 17:45:18 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Charter]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1398669</guid>
+		<description><![CDATA[Charter raising cable prices in November in entire 41-state US territory.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2017/06/charter-spectrum-vehicle-800x533.jpg" alt="A Charter Spectrum service vehicle."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/06/charter-spectrum-vehicle.jpg" class="enlarge-link" data-height="600" data-width="900">Enlarge</a> <span class="sep">/</span> A Charter Spectrum vehicle. (credit: <a rel="nofollow" class="caption-link" href="https://newsroom.charter.com/news-views/spectrum-branded-trucks-vans-hitting-road/">Charter</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Charter Communications is raising prices throughout its 41-state cable territory in November, the company confirmed.</p>
+<p>"For a customer with a full suite of [Charter] Spectrum services, [the price increases] could total an additional $7.61 a month," or $91.32 a year, the <em>Asheville Citizen Times</em> <a href="https://www.citizen-times.com/story/news/local/2018/10/22/asheville-charter-spectrum-tv-rates-going-up/1733621002/">reported yesterday</a>.</p>
+<p>Charter confirmed the price increases when contacted by Ars today, saying that the change "takes effect in November throughout our service area."</p>
+</div><p><a href="https://arstechnica.com/?p=1398669#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1398669&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Russian trolls get DM from US Cyber Command: We know who you are. Stop it</title>
+		<link>https://arstechnica.com/?p=1398499</link>
+		<pubDate>Tue, 23 Oct 2018 14:10:37 +0000</pubDate>
+		<dc:creator><![CDATA[Sean Gallagher]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[internet research agency]]></category>
+		<category><![CDATA[Russian election interference]]></category>
+		<category><![CDATA[US Cyber Command]]></category>
+		<category><![CDATA[USCYBERCOM]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1398499</guid>
+		<description><![CDATA[Part of new cyber strategy to identify, track, warn Russian operatives.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/4402213-800x534.jpg" alt="Cyber airmen cybering in the cyberspace. "><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/4402213.jpg" class="enlarge-link" data-height="4912" data-width="7360">Enlarge</a> <span class="sep">/</span> Cyber airmen cybering in the cyberspace.  (credit: U.S. Air Force photo by Airman 1st Class Thomas Karol)</p>  </figure><div><a name="page-1"></a></div>
+<p>The US Cyber Command (USCYBERCOM) is engaging in a campaign to deter further disinformation operations by Russian operatives—individuals like those employed through Russian companies as part of the "<a href="https://arstechnica.com/tech-policy/2018/10/how-russias-influence-operations-targeted-the-midterms-and-how-they-still-do/?comments=1&amp;unread=1">Project Lakhta</a>" program described in last week's Justice Department <a href="https://www.justice.gov/opa/press-release/file/1102316/download">indictment of Elena Alekseevna Khusyaynova</a>—by letting them know that they are being watched. According to a report from the <em>New York Times'</em> Julian E. Barnes, USCYBERCOM has <a href="https://www.nytimes.com/2018/10/23/us/politics/russian-hacking-usa-cyber-command.html">directed operations to identify, track, and directly message individuals</a> involved in disinformation campaigns associated with the upcoming midterm elections.</p>
+<p>The Cyber Command operation, described by unnamed senior military officials, is limited in scope and does not involve directly threatening Russian operatives. The measured steps are meant to avoid an escalation of operations by Russia to more serious computer-based attacks on US information systems and infrastructure.</p>
+<p>The operation reflects a more aggressive stance outlined in President Trump's recent executive order on national cyber strategy, which called for building a stronger deterrent. The new policy was accompanied by <a href="https://www.nytimes.com/2018/09/20/us/politics/trump-cyberattacks-orders.html">a loosening of Obama administration limits on use of offensive "cyber weapons"</a> and a<a href="https://www.wsj.com/articles/white-house-confirms-it-has-relaxed-rules-on-u-s-use-of-cyber-weapons-1537476729"> more "offense-forward" posture in information and network operations</a>.</p>
+</div><p><a href="https://arstechnica.com/?p=1398499#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1398499&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>How Russia’s “influence operations” targeted the midterms (and how they still do)</title>
+		<link>https://arstechnica.com/?p=1397845</link>
+		<pubDate>Mon, 22 Oct 2018 23:35:43 +0000</pubDate>
+		<dc:creator><![CDATA[Sean Gallagher]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[influence campaign]]></category>
+		<category><![CDATA[internet research agency]]></category>
+		<category><![CDATA[Russian election interference]]></category>
+		<category><![CDATA[Twitter]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1397845</guid>
+		<description><![CDATA[Indictment of financier for "Project Lakhta" tied to Internet Research Agency campaign.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2017/09/ballotboxselfiepic-800x526.jpg" alt="People using voting booths."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/09/ballotboxselfiepic.jpg" class="enlarge-link" data-height="673" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="http://www.gettyimages.com/search/2/image?artist=joe%20raedle&amp;family=editorial&amp;excludenudity=true&amp;sort=mostpopular">Joe Raedle/Getty Images</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Last week, <a href="https://arstechnica.com/tech-policy/2018/10/twitter-publishes-dump-of-accounts-tied-to-russian-iranian-influence-campaigns/">Twitter released data</a> from accounts that had been identified as part of Russian and Iranian influence campaigns, including efforts by Russia to influence the political climate in the United States before, during, and after the 2016 presidential campaign. Hours later, the US Department of Justice announced the indictment of a 44-year-old Russian woman accused of directing ongoing influence campaigns on social media platforms targeting the US midterm congressional elections.</p>
+
+<p>Both Twitter's data and the indictment are data points in the history of "Project Lakhta," a wide-ranging campaign to shape the political and cultural discussions in Russia, Ukraine, Western Europe, and the United States. The campaign started in earnest in 2014, though the Internet Research Agency's efforts date back even further in Russia. The Internet Research Agency, also known as the IRA, was but one of several organizations enlisted in these efforts; the operation also enlisted a number of media organizations, including the <a href="https://www.thedailybeast.com/new-russian-media-venture-wants-to-wage-information-war-in-washington-dc">Federal News Agency (FAN)</a>. FAN operates the "<a href="https://usareally.com/">USA Really</a>" propaganda site, which was launched earlier this year, as well as associated social media accounts that have been leveraged as part of the campaign.</p>
+<p>According to the FBI affidavit that led to the <a href="https://www.justice.gov/opa/pr/russian-national-charged-interfering-us-political-system">indictment of Elena Alekseevna Khusyaynova</a> last week, Khusyaynova managed the financing of the organizations under the Project Lakhta umbrella and funneled $35 million to various entities to fund social media and propaganda operations. These activities in the US included covering the expenditures of "activists," purchasing advertisements on social media platforms with faked US identities, operating proxy servers in the US, and "promoting news postings on social networks."</p>
+</div><p><a href="https://arstechnica.com/?p=1397845#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1397845&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>12 days after hurricane, Verizon says Florida network is back to normal</title>
+		<link>https://arstechnica.com/?p=1398029</link>
+		<pubDate>Mon, 22 Oct 2018 21:12:12 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Hurricane Michael]]></category>
+		<category><![CDATA[verizon]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1398029</guid>
+		<description><![CDATA[Gov. slammed Verizon for delays, but service is back "essentially everywhere."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/getty-die-verizon-die-800x533.jpg" alt="A Florida man sets up a sign that says, " die verizon on his property indicating dissatisfaction with cellular service after hurricane michael.><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/getty-die-verizon-die.jpg" class="enlarge-link" data-height="2000" data-width="3000">Enlarge</a> <span class="sep">/</span> PANAMA CITY, Fla. - OCTOBER 19: Mark Mauldin hangs a sign near the front of his property expressing his dissatisfaction with his Verizon cell phone service following Hurricane Michael, which slammed into the Florida Panhandle on October 10. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/search/photographer?family=editorial&amp;mediatype=photography&amp;phrase=scott%20olson&amp;photographer=scott%20olson&amp;sort=mostpopular">Getty Images | Scott Olson </a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Verizon Wireless service is back up and running "essentially everywhere" throughout the area hit by Hurricane Michael, the company said today.</p>
+<p>"Verizon engineers and fiber crews have been working around the clock after <a href="https://arstechnica.com/information-technology/2018/10/verizon-fiber-suffered-unprecedented-damage-from-hurricane-michael/">unprecedented</a> damage to our fiber infrastructure caused by the most intense storm in history to make landfall in the Panhandle," Verizon's <a href="https://www.verizon.com/about/news/verizon-wireless-services-and-running-panhandle-dont-cut-fiber">announcement</a> said. "Services for our customers and first responders are back up and running today, providing wireless coverage essentially everywhere it was before Hurricane Michael hit."</p>
+<p>Verizon had faced repeated <a href="https://arstechnica.com/tech-policy/2018/10/verizon-slammed-for-poor-hurricane-response-as-floridians-lack-cell-service/">criticism</a> from Florida Governor Rick Scott, who said Verizon lagged behind AT&amp;T and other carriers in restoring service after the Category 4 hurricane made landfall on October 10. Scott last week <a href="https://www.flgov.com/2018/10/16/gov-scott-telecommunications-companies-should-treat-floridians-fairly/">suggested</a> that Verizon misled the public about its post-hurricane recovery, saying that Verizon's claim of covering "98 percent of Florida" was only accurate because it included customers "hundreds of miles away from impacted areas."</p>
+</div><p><a href="https://arstechnica.com/?p=1398029#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1398029&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Lithium giants feud over competition, brine in Chile’s Atacama Desert</title>
+		<link>https://arstechnica.com/?p=1397575</link>
+		<pubDate>Sun, 21 Oct 2018 18:00:31 +0000</pubDate>
+		<dc:creator><![CDATA[Megan Geuss]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[lithium]]></category>
+		<category><![CDATA[mineral]]></category>
+		<category><![CDATA[mining]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1397575</guid>
+		<description><![CDATA[Albemarle and SQM can't settle water disputes, and a sale might draw them closer.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/GettyImages-91935747-800x342.jpg" alt="Salt flats in South America"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/GettyImages-91935747.jpg" class="enlarge-link" data-height="1835" data-width="4288">Enlarge</a> <span class="sep">/</span> A general view of Laguna Colorada located near the border with Chile, in the Uyuni Salt Flats, Bolivia. The Uyuni Salt Flats are estimated to contain 100 million tons of lithium, making it one of the largest global reserves of this mineral, according to state officials at the Bolivian Mining Corporation. (credit: MARTIN BERNETTI/AFP/Getty Images)</p>  </figure><div><a name="page-1"></a></div>
+<p>Two of the world's biggest lithium producers, Albemarle Corporation and Sociedad Quimica y Minera de Chile (otherwise known as SQM), are tangled in two disputes: the first over water rights in Chile's Atacama desert and the second over ownership of SQM.</p>
+<p>Both Albemarle and SQM have significant operations in the Atacama desert, where some of the world's best lithium resources exist. As electric vehicles with lithium-ion batteries become more popular, lithium resources are becoming more valuable. That has created some conflict in an industry that has long remained relatively quiet.</p>
+<h2>Who's drinking whose milkshake?</h2>
+<p>This week, <a href="https://www.reuters.com/article/us-chile-lithium-insight/a-water-fight-in-chiles-atacama-raises-questions-over-lithium-mining-idUSKCN1MS1L8">Reuters reported</a> that both Albemarle and SQM have accused each other of overdrawing brine from the Atacama's underground aquifers. Both companies have operations in the Atacama's Salar, and their operations are just three miles apart from each other. The brine water that has been accumulating for millennia under the Atacama is lithium-rich, and companies pump it out and <a href="https://www.samcotech.com/what-is-lithium-extraction-and-how-does-it-work/">send the brine to evaporation ponds</a> where heat extracts the water and leaves the reactive alkali metal behind.</p>
+</div><p><a href="https://arstechnica.com/?p=1397575#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1397575&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Hack on 8 adult websites exposes oodles of intimate user data</title>
+		<link>https://arstechnica.com/?p=1397473</link>
+		<pubDate>Sat, 20 Oct 2018 19:45:52 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Data breaches]]></category>
+		<category><![CDATA[passwords]]></category>
+		<category><![CDATA[personal information]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1397473</guid>
+		<description><![CDATA[A recovered 98MB file underscores the risks of trusting personal info to strangers.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/wife-lovers-800x390.jpg" alt="One of the hacked websites, wifelovers.com, as it appeared on October 12."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/wife-lovers.jpg" class="enlarge-link" data-height="487" data-width="1000">Enlarge</a> <span class="sep">/</span> One of the hacked websites, wifelovers.com, as it appeared on October 12. (credit: <a rel="nofollow" class="caption-link" href="https://web.archive.org/web/20181012115452/http://www.wifelovers.com/discus/index.html">Internet Archive</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>A recent hack of eight poorly secured adult websites has exposed megabytes of personal data that could be damaging to the people who shared pictures and other highly intimate information on the online message boards. Included in the leaked file are (1) IP addresses that connected to the sites, (2) user passwords protected by a four-decade-old cryptographic scheme, (3) names, and (4) 1.2 million unique email addresses, although it’s not clear how many of the addresses legitimately belonged to actual users.</p>
+<p>Robert Angelini, the owner of wifelovers.com and the seven other breached sites, told Ars on Saturday morning that, in the 21 years they operated, fewer than 107,000 people posted to them. He said he didn’t know how or why the almost 98-megabyte file contained more than 12 times that many email addresses, and he hasn’t had time to examine a copy of the database that he received on Friday night.</p>
+<p>Still, three days after receiving notification of the hack, Angelini finally confirmed the breach and took down the sites on early Saturday morning. A notice on the just-shuttered sites warns users to change passwords on other sites, especially if they match the passwords used on the hacked sites.</p>
+</div><p><a href="https://arstechnica.com/?p=1397473#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1397473&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Apple CEO Tim Cook calls on Bloomberg to retract its Chinese spy story</title>
+		<link>https://arstechnica.com/?p=1397249</link>
+		<pubDate>Fri, 19 Oct 2018 19:55:24 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[backdoores]]></category>
+		<category><![CDATA[Bloomberg]]></category>
+		<category><![CDATA[hardware implants]]></category>
+		<category><![CDATA[supermicro]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1397249</guid>
+		<description><![CDATA["We were very clear with them that this did not happen," Cook tells BuzzFeed.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2015/05/web-servers-640x427.jpg" alt="Apple CEO Tim Cook calls on Bloomberg to retract its Chinese spy story"><p class="caption" style="font-size:0.8em">(credit: <a rel="nofollow" class="caption-link" href="https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg">Wikipedia</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Apple CEO Tim Cook is calling on Bloomberg Business to retract a story that said his company was the victim of a hardware-based attack carried out by the Chinese government. It's the first time Apple has ever publicly demanded a retraction, according to BuzzFeed.</p>
+<p>Since Bloomberg <a href="https://arstechnica.com/gadgets/2018/10/bloomberg-super-micro-motherboards-used-by-apple-amazon-contained-chinese-spy-chips/">published the exclusive article 15 days ago</a>, a gaggle of companies, well-placed government officials, and security researchers have publicly challenged its accuracy. Apple and Amazon have said they have no knowledge of ever finding or removing servers that contained the kind of spy chips Bloomberg alleged were found in the companies’ networks. Supermicro has also denied knowing anything about malicious chips being secretly implanted into any of its motherboards during the manufacturing process, as Bloomberg reported.</p>
+<p>Meanwhile, an official from the US Department of Homeland Security has said he has no reason to doubt the Apple and Amazon denials, and a top official with the National Security Agency has said the vast resources at his disposal have been unable to confirm the report. As Ars <a href="https://arstechnica.com/information-technology/2018/10/supermicro-boards-were-so-bug-ridden-why-would-hackers-ever-need-implants/">reported last week</a>, hardware experts, including two who were contacted by Bloomberg when reporting the story, said the kind of chip-based backdoors alleged by Bloomberg are extremely complex, particularly when introduced in the supply chain. They said state-sponsored attackers likely would prefer to exploit the numerous firmware vulnerabilities that affect motherboards from Supermicro and other makers.</p>
+</div><p><a href="https://arstechnica.com/?p=1397249#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1397249&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Comcast gigabit cable ($105 with 1TB data cap) now available in 39 states</title>
+		<link>https://arstechnica.com/?p=1397251</link>
+		<pubDate>Fri, 19 Oct 2018 19:50:05 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Comcast]]></category>
+		<category><![CDATA[data cap]]></category>
+		<category><![CDATA[gigabit]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1397251</guid>
+		<description><![CDATA[Comcast gigabit cable rollout is nearly done, but uploads are limited to 35Mbps.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/comcast-gigabit-800x450.jpg" alt="A Comcast DOCSIS 3.1 modem."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/comcast-gigabit.jpg" class="enlarge-link" data-height="563" data-width="1000">Enlarge</a> <span class="sep">/</span> A Comcast DOCSIS 3.1 modem. (credit: Comcast)</p>  </figure><div><a name="page-1"></a></div>
+<p>Comcast's gigabit cable service is now available to nearly all of the 58 million homes and businesses in the company's US territory, <a href="https://corporate.comcast.com/press/releases/comcast-now-nations-largest-provider-of-gigabit-internet">Comcast announced yesterday</a>.</p>
+<p>Comcast, the nation's largest ISP with more than 26 million subscribers, began rolling out gigabit cable in <a href="https://arstechnica.com/information-technology/2016/03/comcasts-gigabit-cable-has-a-data-cap-unless-you-sign-3-year-contract/">early 2016</a>. It's now available almost universally through Comcast's territory that includes 39 states and the District of Columbia.</p>
+<p>Comcast's gigabit cable relies on <a href="https://arstechnica.com/information-technology/2016/01/multi-gigabit-cable-modems-ready-to-help-you-blow-past-your-data-cap/">DOCSIS 3.1 technology</a> to deliver download speeds of up to 1,000Mbps, though Comcast <a href="https://www.xfinity.com/support/articles/get-most-from-xfinity-gigabit-internet-service">notes</a> that speeds will vary based on network traffic and "actual download speeds might be limited to 940Mbps due to Ethernet technical limitations." Upload speeds are still limited to a comparatively paltry 35Mbps.</p>
+</div><p><a href="https://arstechnica.com/?p=1397251#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1397251&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Twitter publishes dump of accounts tied to Russian, Iranian influence campaigns</title>
+		<link>https://arstechnica.com/?p=1396645</link>
+		<pubDate>Thu, 18 Oct 2018 21:00:48 +0000</pubDate>
+		<dc:creator><![CDATA[Sean Gallagher]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1396645</guid>
+		<description><![CDATA[Archive for researchers provides picture of Internet Research Agency's influence ops.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/russiaflag-800x433.jpg" alt="Russian flag in the breeze."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/russiaflag.jpg" class="enlarge-link" data-height="541" data-width="1000">Enlarge</a> <span class="sep">/</span> This image was the profile banner of one of the accounts allegedly run by the Internet Research Agency, the organization that ran social media "influence campaigns" in Russia, Germany, Ukraine, and the US dating back to 2009. (credit: A Russian Troll)</p>  </figure><div><a name="page-1"></a></div>
+<p>Twitter has <a href="https://about.twitter.com/en_us/values/elections-integrity.html#data">released a data store</a> of posts from 3,841 accounts that have been identified as being connected to the Internet Research Agency (IRA), the Russian "troll factory" that used Twitter and Facebook to conduct an "influence campaign" aimed at causing political turmoil during the 2016 US presidential election as well as undermining the political process in other countries, including Germany and Ukraine. The company has also released another set of data connected to 770 accounts believed to be connected to an Iranian influence campaign.</p>
+<p>Totaling over 360 gigabytes—including more than 10 million tweets and associated metadata and over 2 million images, animated GIFs, videos, and Periscope streams—the data store provides a picture of how state-sponsored agencies have used the Twitter platform. Some of the content dates as far back as 2009.</p>
+<p>In a <a href="https://blog.twitter.com/official/en_us/topics/company/2018/enabling-further-research-of-information-operations-on-twitter.html">post announcing the release</a>, Twitter Legal, Policy, and Trust &amp; Safety lead Vijaya Gadde and Twitter's head of Site Integrity Yoel Roth wrote that Twitter was providing the data "with the goal of encouraging open research and investigation of [state-sponsored influence and information campaigns] from researchers and academics around the world."</p>
+</div><p><a href="https://arstechnica.com/?p=1396645#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1396645&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Meet Helm, the startup taking on Gmail with a server that runs in your home</title>
+		<link>https://arstechnica.com/?p=1395757</link>
+		<pubDate>Wed, 17 Oct 2018 17:52:29 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[email]]></category>
+		<category><![CDATA[gmail]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[security]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1395757</guid>
+		<description><![CDATA[Fee-based service couples the security of a private server with the reliability of the cloud.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/Helm_Entry_K6B1480-800x533.jpeg" alt="Meet Helm, the startup taking on Gmail with a server that runs in your home"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/Helm_Entry_K6B1480.jpeg" class="enlarge-link" data-height="1000" data-width="1500">Enlarge</a> (credit: Helm)</p>  </figure><div><a name="page-1"></a></div>
+<p>There’s no doubt that Gmail has changed the way we consume email. It’s free, it gives most of us all the storage we’ll ever need, and it does a better job than most in weeding out spam and malware. But there’s a cost to all of this. Storing years' worth of messages in a corporate-owned place gives end users less control than many would like. They rightfully worry about Google either being hacked or legally compelled to turn over contents.</p>
+<p>On Wednesday, a Seattle-based startup called <a href="https://thehelm.com/">Helm</a> is launching a service designed to make it easy for people to <a href="https://thehelm.com/pages/about">securely take control of their email and other personal data</a>. The company provides a small custom-built server that connects to a user's home or small-office network and sends, receives, and manages email, contacts, and calendars. Helm plans to offer photo storage and other services later.</p>
+<p>With a 120GB solid-state drive, a three-minute setup, and the ability to store encrypted disk images that can only be decrypted by customers, Helm says its service provides the ease and reliability of Gmail and its tightly coupled contacts and calendar services. The startup is betting that people will be willing to pay $500 to purchase the box and use it for one year to host some of their most precious assets in their own home. The service will cost $100 per year after that. Included in the fee is the registration and automatic renewal of a unique domain selected by the customer and a corresponding TLS certificate from Let's Encrypt.</p>
+</div><p><a href="https://arstechnica.com/?p=1395757#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1395757&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Trivial authentication bypass in libssh leaves servers wide open</title>
+		<link>https://arstechnica.com/?p=1395405</link>
+		<pubDate>Wed, 17 Oct 2018 01:45:27 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[authentication bypass]]></category>
+		<category><![CDATA[libssh]]></category>
+		<category><![CDATA[secure shell]]></category>
+		<category><![CDATA[SSH]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1395405</guid>
+		<description><![CDATA[How many servers have been affected remains unclear.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/jedi-mind-trick.jpeg" alt="Trivial authentication bypass in libssh leaves servers wide open"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/jedi-mind-trick.jpeg" class="enlarge-link" data-height="432" data-width="768">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.starwars.com/databank/jedi-mind-trick">starwars.com</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>There’s a four-year-old bug in the Secure Shell implementation known as libssh that makes it trivial for just about anyone to gain unfettered administrative control of a vulnerable server. While the authentication-bypass flaw represents a major security hole that should be patched immediately, it wasn’t immediately clear what sites or devices were vulnerable since neither the widely used OpenSSH nor Github’s implementation of libssh was affected.</p>
+<p>The vulnerability, which was introduced in <a href="https://www.libssh.org/2014/01/08/libssh-0-6-0/">libssh version 0.6 released in 2014,</a> makes it possible to log in by presenting a server with a SSH2_MSG_USERAUTH_SUCCESS message rather than the SSH2_MSG_USERAUTH_REQUEST message the server was expecting, according to an <a href="https://www.libssh.org/security/advisories/CVE-2018-10933.txt">advisory published Tuesday</a>. Exploits are the hacking equivalent of a Jedi mind trick, in which an adversary uses the Force to influence or confuse weaker-minded opponents. The last time the world saw an authentication-bypass bug with such serious consequences and requiring so little effort was 11 months ago, when Apple’s <a href="https://arstechnica.com/information-technology/2017/11/macos-bug-lets-you-log-in-as-admin-with-no-password-required/">macOS let people log in as admin without entering a password</a>.</p>
+<p>The effects of malicious exploits, assuming there were any during the four-plus years the bug was active, are hard to fathom. In a worst-case scenario, attackers would be able to use exploits to gain complete control over vulnerable servers. The attackers could then steal encryption keys and user data, install rootkits and erase logs that recorded the unauthorized access. Anyone who has used a vulnerable version of libssh in server mode should consider conducting a thorough audit of their network immediately after updating.</p>
+</div><p><a href="https://arstechnica.com/?p=1395405#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1395405&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Ajit Pai slams carriers for slow restoration of cell service after hurricane</title>
+		<link>https://arstechnica.com/?p=1395227</link>
+		<pubDate>Tue, 16 Oct 2018 21:06:53 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[Florida]]></category>
+		<category><![CDATA[hurricane]]></category>
+		<category><![CDATA[Hurricane Michael]]></category>
+		<category><![CDATA[verizon]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1395227</guid>
+		<description><![CDATA[Verizon network still in bad shape—FCC demands refunds and will investigate.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/09/getty-verizon-ces-logo-1-800x602.jpg" alt="A Verizon logo at the 2012 Consumer Electronics Show in Las Vegas."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/09/getty-verizon-ces-logo-1.jpg" class="enlarge-link" data-height="1462" data-width="1943">Enlarge</a> <span class="sep">/</span> A Verizon logo at the 2012 Consumer Electronics Show in Las Vegas. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/collections/bloomberg">Getty Images | Bloomberg</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Wireless carriers' failure to fully restore cellular service in Florida after Hurricane Michael "is completely unacceptable," Federal Communications Commission Chairman Ajit Pai said today in a rare rebuke of the industry that he regulates.</p>
+<p>Verizon in particular has been under fire from Florida Governor Rick Scott, who says Verizon hasn't done enough to restore service. By contrast, Scott has praised AT&amp;T for its disaster response.</p>
+<p>The FCC will open an investigation into the post-hurricane restoration efforts, Pai said. Pai and Scott urged wireless carriers to immediately disclose plans for restoring service, waive the October bills of affected customers, and let customers switch providers without penalty.</p>
+</div><p><a href="https://arstechnica.com/?p=1395227#p3">Read 18 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1395227&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Already facing an uphill misinformation fight, Facebook loses to scammers, too</title>
+		<link>https://arstechnica.com/?p=1394641</link>
+		<pubDate>Tue, 16 Oct 2018 00:42:37 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[misinformation]]></category>
+		<category><![CDATA[scams]]></category>
+		<category><![CDATA[security]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1394641</guid>
+		<description><![CDATA[Facebook's focus on misinformation is leaving an opening for another type of scam.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/facebook-scam-profile-800x454.png" alt="A partial screenshot of one of the profiles pushing an adult dating scam on Facebook."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/facebook-scam-profile.png" class="enlarge-link" data-height="567" data-width="1000">Enlarge</a> <span class="sep">/</span> A partial screenshot of one of the profiles pushing an adult dating scam on Facebook. </p>  </figure><div><a name="page-1"></a></div>
+<p>Responding to critics in the US Congress and elsewhere who say Facebook isn’t doing enough to stop the flow of disinformation, the social network in recent days has purged hundreds of accounts it found were designed to sway elections, sow social division, and prop up ruthless governments. The focus has left an opening for scammers who routinely use Facebook to send unsuspecting users to fraudulent dating sites.</p>
+<p>Randy Abrams, a senior security analyst at Webroot, told Ars that the account belonging to one of his family members was recently compromised. The people behind the compromise used the hacked account to send Abrams requests to like various accounts, which all showed images of scantily clad women inviting visitors to view videos. Many of the fake profiles had followers and likes in excess of 6,500, an indication the scam has been gaining traction. At the time this post went live, the campaign remained active, even after Ars reported it to the company's PR representatives.</p>
+<p>The videos redirected to a variety of sites that invited viewers to meet nearby women who wanted sex. Many of the images on these sites showed nude women and asked visitors to enter credit card numbers to proceed. Clicking the browser's back arrow created an endless series of new sites. The only way to get out of the never-ending loop was to close the tab.</p>
+</div><p><a href="https://arstechnica.com/?p=1394641#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1394641&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Winamp 6, due out in 2019, aims to whip more llama ass</title>
+		<link>https://arstechnica.com/?p=1394561</link>
+		<pubDate>Mon, 15 Oct 2018 20:11:51 +0000</pubDate>
+		<dc:creator><![CDATA[Cyrus Farivar]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[winamp]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1394561</guid>
+		<description><![CDATA["You can listen to the MP3s you may have at home, but also to the cloud, to podcasts…"]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/5676213242_a70360285e_b-800x481.jpg" alt="Computer monitor using Winamp."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/5676213242_a70360285e_b.jpg" class="enlarge-link" data-height="616" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/kengz/5676213242/in/photolist-7bWoKX-9DA5ry-5HNiFn-5n26ez-itSr8S-7vDQ2d-aeRRp-6mzpC-hKDf9W-it55hV-6qfAa-isVku9-48y4A8-4t9b1i-zkrpf-9PeP5y-6mYHfp-55weij-55s5dk-33w4S8-9zPt4-4g8Hj-4P6uaT-zKiey-55s4sc-EJJ6ac-iyp9Y-288iR-5n1JMH-6NFjkV-Y6inCm-9UoPGZ-7pfmSW-6T1wiM-6nq16P-5mKK48-5mEgVn-59nT5D-58KY43-58KXyq-48JGUJ-HmLML-zeCLC-uYN83-okbjb-6bPEs-3HWR1-3AwLF-2uKJe-t3zG">Keng Susumpow / Flickr</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Rejoice, llama-whipping fans, a new version of <a href="http://www.winamp.com/">Winamp</a> is set to be released in 2019, according to a Monday report by <a href="https://techcrunch.com/2018/10/15/winamp-returns-in-2019-to-whip-the-llamas-ass-harder-than-ever/">TechCrunch</a>.</p>
+<p>Alexandre Saboundjian, the CEO of <a href="https://www.radionomy.com/">Radionomy</a>, said that the upgrade would bring a "complete listening experience."</p>
+<p><a href="https://www.audiovalley.com/">AudioValley</a>, Radionomy's parent company, did not immediately respond to Ars' request for comment.</p>
+</div><p><a href="https://arstechnica.com/?p=1394561#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1394561&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Verizon fiber suffered “unprecedented” damage from Hurricane Michael</title>
+		<link>https://arstechnica.com/?p=1394421</link>
+		<pubDate>Mon, 15 Oct 2018 16:40:00 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[FCC]]></category>
+		<category><![CDATA[verizon]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1394421</guid>
+		<description><![CDATA[Ongoing damage to Verizon fiber delays restoration of cell service.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/getty-hurricane-michael-800x533.jpg" alt="Vehicles sit partially submerged in floodwaters after Hurricane Michael hit in Panama City, Florida, U.S., on Wednesday, Oct. 10, 2018."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/getty-hurricane-michael.jpg" class="enlarge-link" data-height="1333" data-width="2000">Enlarge</a> <span class="sep">/</span> Vehicles sit partially submerged in floodwaters after Hurricane Michael hit in Panama City, Florida, US, on Wednesday, Oct. 10, 2018. (credit: Getty Images | Bloomberg)</p>  </figure><div><a name="page-1"></a></div>
+<p>Nearly 300,000 households were still without home Internet, phone, or TV service yesterday in Florida, Georgia, and Alabama, as telcos scramble to repair networks damaged by <a href="https://arstechnica.com/science/2018/10/michael-is-now-a-major-hurricane-and-it-may-get-a-bit-stronger/">Hurricane Michael</a>. More than 200,000 of the households without cable or wireline service are in Florida, according to the Federal Communications Commission.</p>
+<p>Mobile service has also taken a big hit, with outages affecting about 15 percent of cell sites in the 21 Florida counties where the FCC is tracking hurricane-related outages.</p>
+<p>Carriers have made progress in reducing those outage numbers the past few days. Nearly 29 percent of tracked cell sites in Florida were out as of October 11, but the outage rate has been nearly cut in half since.</p>
+</div><p><a href="https://arstechnica.com/?p=1394421#p3">Read 15 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1394421&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Here’s how to see if you’re among the 30 million compromised Facebook users</title>
+		<link>https://arstechnica.com/?p=1393525</link>
+		<pubDate>Fri, 12 Oct 2018 19:56:10 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Data breaches]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[privacy]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1393525</guid>
+		<description><![CDATA[The bad news: Private data was stolen. The good: Fewer accounts were affected.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/07/getty-facebook-logo-800x531.jpg" alt="A Facebook logo and a phone running Facebook."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/07/getty-facebook-logo.jpg" class="enlarge-link" data-height="2542" data-width="3827">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/">Getty Images | NurPhoto </a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>The attackers who carried out the <a href="https://arstechnica.com/information-technology/2018/09/50-million-facebook-accounts-breached-by-an-access-token-harvesting-attack/">mass hack that Facebook disclosed two weeks ago</a> obtained user account data belonging to as many as 30 million users, the social network said on Friday. Some of that data—including phone numbers, email addresses, birth dates, searches, location check-ins, and the types of devices used to access the site—came from private accounts or was supposed to be restricted only to friends.</p>
+<p>The revelation is the latest black eye for Facebook as it tries to recover from the scandal that came to light earlier this year in which Cambridge Analytica funneled highly personal details of more than 80 million users to an organization supporting then-presidential candidate Donald Trump. When Facebook disclosed the latest breach two weeks ago, CEO Mark Zuckerberg said he didn’t know if it allowed attackers to steal users’ private data. Friday’s update made clear that it did, although the 30 million people affected was less than the 50 million estimate previously given. Readers can check <a href="https://www.facebook.com/help/securitynotice?ref=sec">this link</a> to see what, if any, data was obtained by the attackers.</p>
+<p>On a conference call with reporters, Vice President of Product Management Guy Rosen said that at the request of the FBI, which is investigating the hack, Facebook isn’t providing any information about who the attackers are or their motivations or intentions. That means that for now, affected users should be extra vigilant when reading emails, taking calls, and receiving other types of communications. The ability to know the search queries, location check-ins, phone numbers, email addresses, and other personal details of so many people gives the attackers the ability to send highly customized emails, texts, and voice calls that may try to trick people into turning over money, passwords, or other high-value information.</p>
+</div><p><a href="https://arstechnica.com/?p=1393525#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1393525&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>If Supermicro boards were so bug-ridden, why would hackers ever need implants?</title>
+		<link>https://arstechnica.com/?p=1392879</link>
+		<pubDate>Thu, 11 Oct 2018 22:00:37 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[firmware hacking]]></category>
+		<category><![CDATA[hardware implants]]></category>
+		<category><![CDATA[Motherboards]]></category>
+		<category><![CDATA[supermicro]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1392879</guid>
+		<description><![CDATA[Whether spy chips reported by Bloomberg existed, attackers had much easier options.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/supermicro-x10srl-f.jpg" alt="A Supermicro motherboard."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/supermicro-x10srl-f.jpg" class="enlarge-link" data-height="457" data-width="600">Enlarge</a> <span class="sep">/</span> A Supermicro motherboard. (credit: Supermicro)</p>  </figure><div><a name="page-1"></a></div>
+<p>By now, everyone knows the premise behind two <a href="https://www.bloomberg.com/news/features/2018-10-04/the-big-hack-how-china-used-a-tiny-chip-to-infiltrate-america-s-top-companies">unconfirmed Bloomberg articles</a> that have <a href="https://www.bloomberg.com/news/articles/2018-10-09/new-evidence-of-hacked-supermicro-hardware-found-in-u-s-telecom">dominated security headlines</a> over the past week: spies from China got multiple factories to sneak data-stealing hardware into Supermicro motherboards before the servers that used them were shipped to Apple, Amazon, an unnamed major US telecommunications provider, and more than two dozen other unnamed companies.</p>
+<p>Motherboards that <a href="https://arstechnica.com/gadgets/2018/10/bloomberg-super-micro-motherboards-used-by-apple-amazon-contained-chinese-spy-chips/">wound up inside the networks of Apple, Amazon, and more than two dozen unnamed companies</a> reportedly included a chip no bigger than a grain of rice that funneled instructions to the baseboard management controller, a motherboard component that allows administrators to monitor or control large fleets of servers, even when they’re turned off or corrupted. The rogue instructions, Bloomberg reported, caused the BMCs to download malicious code from attacker-controlled computers and have it executed by the server’s operating system.</p>
+<p>Motherboards that Bloomberg said were <a href="https://arstechnica.com/gadgets/2018/10/new-bloomberg-report-says-backdoored-supermicro-hardware-infiltrated-major-us-telecom/">discovered inside a major US telecom</a> had an implant built into their Ethernet connector that established a “covert staging area within sensitive networks.” Citing Yossi Appleboum, a co-CEO of the security company reportedly hired to scan the unnamed telecom’s network for suspicious devices, Bloomberg said the rogue hardware was implanted at the time the server was being assembled at a Supermicro subcontractor factory in Guangzhou. Like the tiny chip reportedly controlling the BMC in Apple and Amazon servers, Bloomberg said the Ethernet manipulation was “designed to give attackers invisible access to data on a computer network.”</p>
+</div><p><a href="https://arstechnica.com/?p=1392879#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1392879&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Five graphics from Google show how carbon-intensive its data centers really are</title>
+		<link>https://arstechnica.com/?p=1392629</link>
+		<pubDate>Thu, 11 Oct 2018 20:11:02 +0000</pubDate>
+		<dc:creator><![CDATA[Megan Geuss]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[corporate procurement]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[fossil fuels]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[nuclear]]></category>
+		<category><![CDATA[solar]]></category>
+		<category><![CDATA[Wind]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1392629</guid>
+		<description><![CDATA[Google wants to match actual energy demand with carbon-free supply. ]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/10/GettyImages-794645427-800x533.jpg" alt="Solar panels on Google rooftop"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/10/GettyImages-794645427.jpg" class="enlarge-link" data-height="2336" data-width="3504">Enlarge</a> <span class="sep">/</span> Solar panels sit on the roof of Google headquarters in Mountain View.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/">Kimberly White/Corbis via Getty Images</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Google has long been a carbon-neutral company in a theoretical sense. That is, even when it's physically impossible for Google's data centers and offices to consume renewable energy, the company offsets that "dirty" energy with "clean" energy purchases at other times and locations.</p>
+<p>The problem is, this does not make Google carbon-neutral in a practical sense, because the company still needs polluting energy sources to keep functioning. <a href="https://storage.googleapis.com/gweb-sustainability.appspot.com/pdf/24x7-carbon-free-energy-data-centers.pdf">In a new report</a> (PDF), Google has acknowledged this limitation and offered a few interesting graphics showing how much carbon-free energy its data centers actually consume.</p>
+<p>The report is interesting not just because Google is the largest corporate buyer of renewable energy in the world but also because it shows Google is heading off criticism that has been lobbed at all kinds of corporate buyers of renewable energy, including <a href="https://www.axios.com/corporations-renewable-power-purchases-facebook-apple-6891645a-ac57-4d95-9719-7d0d95fe2053.html">major players like Facebook and Apple</a>. That is, if you're "offsetting" your carbon emissions by paying a wind farm owner for energy that's created at 2am on land that's 3,000 miles from your data center or factory, how much good have you really done?</p>
+</div><p><a href="https://arstechnica.com/?p=1392629#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1392629&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+		<item>
+		<title>Amazon patents Alexa tech to tell if you’re sick, depressed and sell you meds</title>
+		<link>https://arstechnica.com/?p=1392695</link>
+		<pubDate>Thu, 11 Oct 2018 17:13:35 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[alexa]]></category>
+		<category><![CDATA[Amazon]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1392695</guid>
+		<description><![CDATA[Echo could analyze your voice to detect a "physical or emotional abnormality."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/01/echopic.jpg" alt="Amazon's Echo smart speaker with its blue light ring illuminated."><p class="caption" style="font-size:0.8em">An Amazon Echo. (credit: <a rel="nofollow" class="caption-link" href="https://secure.flickr.com/photos/adambowie/30010303015/in/photolist-MHUDxv-RsdiCy-ce37ib-gZSuAP-HbBwpF-rdpXe9-b5Khs-fsA8zq-rbEepM-rdpWwC-EqwyFh-xhWPSw-yY75Sc-v7eDgG-uD3bSK-NhaDT9-Qw6jVC-Qp6QHR-Qmn4jS-Qp6Put-Qw6jJ5-Qw6jyL-Qmn1LW-Qzqde4-Qw6jof-Pi7XL3-Qmn2Xo-Pi7XG5-Qw6iyQ-KAcycw-tamxpG-Q7x5Cm-G7LayN-b7wjtZ-oD3UH8-q3WVmX-J4pyrM-MnTLej-HU4EG7-e6Y6z7-HRga6i-y1h68w-y1h65W-HGuDE7-y1qFyD-HGuD3W-aiHumE-rbEei4-n1m9pT-RFmvsT">Adam Bowie</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>Amazon has patented technology that could let Alexa analyze your voice to determine whether you are sick or depressed and sell you products based on your physical or emotional condition.</p>
+<p>The <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&amp;Sect2=HITOFF&amp;u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&amp;r=1&amp;p=1&amp;f=G&amp;l=50&amp;d=PTXT&amp;S1=10,096,319&amp;OS=10,096,319&amp;RS=10,096,319">patent</a>, titled "Voice-based determination of physical and emotional characteristics of users," was issued on Tuesday this week; Amazon filed the patent application in March 2017.</p>
+<p>The patent describes a voice assistant that can detect "abnormal" physical or emotional conditions. "For example, physical conditions such as sore throats and coughs may be determined based at least in part on a voice input from the user, and emotional conditions such as an excited emotional state or a sad emotional state may be determined based at least in part on voice input from a user," the patent says. "A cough or sniffle, or crying, may indicate that the user has a specific physical or emotional abnormality."</p>
+</div><p><a href="https://arstechnica.com/?p=1392695#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1392695&comments=1">Comments</a></p>]]></content:encoded>
+			</item>
+	</channel>
+</rss>
